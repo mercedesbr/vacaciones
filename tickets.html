@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tickets</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <header>
+                <h1>Tickets</h1>
+            </header>
+            <section class="menu">
+                <nav>
+                  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+                  <div class="menu-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="hoteles.html">Hoteles</a>
+                    <a href="lugares.html">Lugares</a>
+                    <a href="tickets.html">Tickets</a>
+
+                    <div class="modo-container">
+                      <a href="#" onclick="toggleModoSubmenu()">Modo ▾</a>
+                      <div class="modo-submenu">
+                        <a href="#" onclick="setTheme('light')">Modo Claro</a>
+                        <a href="#" onclick="setTheme('dark')">Modo Oscuro</a>
+                    </div>
+                  </div>
+                </nav>
+              </section>
+            </section>
+
+            <table class="tabla-materias">
+                <tr>
+                <th>Materia</th>
+                <th>Día</th>
+                <th>Horario</th>
+                </tr>
+                <tr>
+                <td>Marketing</td>
+                <td>Lunes</td>
+                <td>18:00 - 22:00</td>
+                </tr>
+                <tr>
+                <td> <a href="https://mercedesbr.github.io/desarrolloweb.io/">Desarrollo y Diseño Web</a></td>
+                <td>Martes</td>
+                <td>18:00 - 22:00</td>
+                </tr>
+                <tr>
+                <td>Programación 3</td>
+                <td>Miércoles</td>
+                <td>18:00 - 22:00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
